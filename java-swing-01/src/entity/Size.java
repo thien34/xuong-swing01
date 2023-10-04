@@ -19,5 +19,5 @@ public class Size {
     String maSize;
     String size;
     boolean trangThai;
-
+    int diem;
 }
