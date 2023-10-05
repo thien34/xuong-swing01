@@ -16,9 +16,11 @@ import lombok.experimental.FieldDefaults;
 @ToString
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class Size {
 
-    String maSize;
-    String size;
-    boolean trangThai;
-}                   
+public class SanXuat {
+
+    String maNSX;
+    String tenNSX;
+    String diaChi;
+    Boolean trangThai;
+}

@@ -9,7 +9,6 @@ import com.raven.menu.MainForm;
 import com.raven.menu.MenuItem;
 import java.awt.Component;
 import java.awt.EventQueue;
-import javax.swing.text.View;
 
 public class Main extends javax.swing.JFrame {
 
@@ -25,6 +24,9 @@ public class Main extends javax.swing.JFrame {
 //                mainForm.displayForm(new Form1("Form " + index + "-" + subMenuIndex));
                 if (index == 0 && subMenuIndex == 0) {
                     mainForm.displayForm(new ViewSize());
+                }
+                if (index == 0 && subMenuIndex == 1) {
+                    mainForm.displayForm(new ViewSX());
                 }
             }
         });
@@ -72,7 +74,7 @@ public class Main extends javax.swing.JFrame {
             public Object getElementAt(int i) { return strings[i]; }
         });
         mainMenuItem1.setMenuModel(new javax.swing.AbstractListModel() {
-            String[] strings = { "Size", "Buttons", "Cards", "Tabs", "Accordions", "Modals", "Lists & Media Object" };
+            String[] strings = { "Quan ly Size", "Quan ly nha san xuat", "Cards", "Tabs", "Accordions", "Modals", "Lists & Media Object" };
             public int getSize() { return strings.length; }
             public Object getElementAt(int i) { return strings[i]; }
         });

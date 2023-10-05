@@ -135,8 +135,8 @@
             </Property>
             <Property name="menuModel" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
               <StringArray count="7">
-                <StringItem index="0" value="Size"/>
-                <StringItem index="1" value="Buttons"/>
+                <StringItem index="0" value="Quan ly Size"/>
+                <StringItem index="1" value="Quan ly nha san xuat"/>
                 <StringItem index="2" value="Cards"/>
                 <StringItem index="3" value="Tabs"/>
                 <StringItem index="4" value="Accordions"/>
